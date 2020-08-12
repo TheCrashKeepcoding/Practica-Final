@@ -45,8 +45,8 @@ Datos radares. Cruzaremos los datos con la distancia a los radares, para saber s
 Datos calendario. Cruzaremos los datos con los dias laborables y festivos de la comunidad de Madrdid:  
 [Datos calendario](https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=6cec1a94eae69510VgnVCM1000001d4a900aRCRD&vgnextchannel=102612b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default)
 
-Datos distritos. Utilizaremos estos datos para mejorar la visualización de los datos tableau:  
-[Datos radares](https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=46b55cde99be2410VgnVCM1000000b205a0aRCRD&)
+Datos distritos. Utilizaremos estos datos para mejorar la visualización de los datos en tableau:  
+[Datos distritos](https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=46b55cde99be2410VgnVCM1000000b205a0aRCRD&)
 
 ## Creación latitud y longitud en el dataset inicial <a name="id3"></a>
 Lo primero que hemos tenido que hacer es conseguir la latitud y la longitud en el dataset inicial para poderlo unir a los demás dataset; para ello hemos creado 2 Notebooks que a partir de las calles obtiene la latitud y longitud:  
