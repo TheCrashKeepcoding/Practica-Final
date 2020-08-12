@@ -16,7 +16,7 @@ Juan Antonio Roldan Paco
 1. [Objetivo](#id1)
 2. [Conjunto de datos](#id2)
 3. [Creación latitud y longitud en el dataset inicial](#id3)
-4. [Cálculo distancia a zonas de ocio y distancia a radares](#id4)
+4. [Cálculo distancia a zonas de ocio, distancia a radares y dias festivos](#id4)
 5. [Visualización de datos Tableau](#id5)
 6. [Limpieza, análisis exploratorio y procesamiento de datos](#id6)
 7. [Modelado con algoritmos de Machine Learning](#id7)
@@ -53,7 +53,7 @@ Lo primero que hemos tenido que hacer es conseguir la latitud y la longitud en e
 [Notebook 1 Creación Latitud y Longitud](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Creaci%C3%B3n%20dataset/1-%20CoordenadasFinal.ipynb)  
 [Notebook 2 Creación Latitud y Longitud](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Creaci%C3%B3n%20dataset/2-%20Dataset%20limpio.ipynb)
 
-## Cálculo distancia a zonas de ocio y distancia a radares <a name="id4"></a>
+## Cálculo distancia a zonas de ocio, distancia a radares y dias festivos <a name="id4"></a>
 Para calcular las distancias a las zonas de ocio lo que hemos hecho ha sido extraer la latitud y longitud de los datos de ocio nocturno, que estaba en un XML, y crear un CSV; para ello hemos creado un Notebook:  
 [Notebook extracción latitud y longitud XML](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Creaci%C3%B3n%20dataset/3-%20Extracci%C3%B3n%20noche_ocio.xml%20y%20creando%20Coordenadas_ocio.csv.ipynb)
 
