@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predictor lesividad de accidentes</h1>  
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="POST">
+
+      <label for="rango_horario">Hora: </label>
+        <input type="number" id="rango_horario" name="rango_horario" min="0" max="23" step="1"><br>
+      
+      <label for="dia_semana">Dia de la semana: </label>
+        <select id="dia_semana" name="dia_semana" value="3">
+          <option selected disabled hidden>Choose here</option>
+          <option value="LUNES">Lunes</option>
+          <option value="MARTES">Martes</option>
+          <option value="MIERCOLES">Miercoles</option>
+          <option value="JUEVES">Jueves</option>
+          <option value="VIERNES">Viernes</option>
+          <option value="SABADO">Sábado</option>
+          <option value="DOMINGO">Domingo</option>
+        </select><br>
+      
+      <label for="distrito">Distrito: :</label>
+        <select id="distrito" name="distrito">
+          <option selected disabled hidden>Choose here</option>
+          <option value="CHAMARTIN">CHAMARTIN</option>
+          <option value="SALAMANCA">SALAMANCA</option>
+          <option value="CENTRO">CENTRO</option>
+          <option value="CIUDAD LINEAL">CIUDAD LINEAL</option>
+          <option value="PUENTE DE VALLECAS">PUENTE DE VALLECAS</option>
+          <option value="CARABANCHEL">CARABANCHEL</option>
+          <option value="CHAMBERI">CHAMBERI</option>
+          <option value="RETIRO">RETIRO</option>
+          <option value="FUENCARRAL-EL PARDO">FUENCARRAL-EL PARDO</option>
+          <option value="TETUAN">TETUAN</option>
+          <option value="MONCLOA-ARAVACA">MONCLOA-ARAVACA</option>
+          <option value="ARGANZUELA">ARGANZUELA</option>
+          <option value="SAN BLAS">SAN BLAS</option>
+          <option value="LATINA">LATINA</option>
+          <option value="USERA">USERA</option>
+          <option value="HORTALEZA">HORTALEZA</option>
+          <option value="VILLAVERDE">VILLAVERDE</option>
+          <option value="MORATALAZ">MORATALAZ</option>
+          <option value="VILLA DE VALLECAS">VILLA DE VALLECAS</option>
+          <option value="VICALVARO">VICALVARO</option>
+          <option value="BARAJAS">BARAJAS</option>
+          <option value="OTRO">OTRO </option>
+        </select><br>
+
+      <label for="tipo_vehiculo">Tipo de vehículo: :</label>
+        <select id="tipo_vehiculo" name="tipo_vehiculo">
+          <option selected disabled hidden>Choose here</option>
+          <option value="TURISMO">TURISMO</option>
+          <option value="MOTOCICLETA">MOTOCICLETA</option>
+          <option value="FURGONETA">FURGONETA</option>
+          <option value="AUTO-TAXI">AUTO-TAXI</option>
+          <option value="AUTOBUS-AUTOCAR">AUTOBUS-AUTOCAR</option>
+          <option value="CICLOMOTOR">CICLOMOTOR</option>
+          <option value="BICICLETA">BICICLETA</option>
+          <option value="CAMION">CAMION</option>
+          <option value="AMBULANCIA">AMBULANCIA</option>
+          <option value="VEH.3 RUEDAS">VEH.3 RUEDAS</option>
+          <option value="OTRO"> </option>
+        </select><br>
+
+      <label for="tipo_persona">Tipo de persona: :</label>
+        <select id="tipo_persona" name="tipo_persona">
+          <option selected disabled hidden>Choose here</option>
+          <option value="CONDUCTOR">CONDUCTOR</option>
+          <option value="VIAJERO">VIAJERO</option>
+        </select><br>
+        
+      <label for="sexo">Sexo: :</label>
+        <select id="sexo" name="sexo">
+          <option selected disabled hidden>Choose here</option>
+          <option value="HOMBRE">HOMBRE</option>
+          <option value="MUJER">MUJER</option>
+        </select><br>
+
+      <label for="tramo_edad">Edad: :</label>
+        <input type="number" id="tramo_edad" name="tramo_edad" min="18" max="80" step="1"><br>
+       
+
+      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ {{prediction_text}}
+
+</body>
+</html>
