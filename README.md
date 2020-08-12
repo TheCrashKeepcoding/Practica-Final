@@ -57,7 +57,7 @@ Lo primero que hemos tenido que hacer es conseguir la latitud y la longitud en e
 Para calcular las distancias a las zonas de ocio lo que hemos hecho ha sido extraer la latitud y longitud de los datos de ocio nocturno, que estaba en un XML, y crear un CSV; para ello hemos creado un Notebook:  
 [Notebook extracción latitud y longitud XML](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Creaci%C3%B3n%20dataset/3-%20Extracci%C3%B3n%20noche_ocio.xml%20y%20creando%20Coordenadas_ocio.csv.ipynb)
 
-Por último hemos extraído latitud y longitud del dataset de radares y hemos unido todos los datasets en un mismo Notebook:  
+Por último hemos extraído latitud y longitud del dataset de radares, dias festivos del dataset calendario y hemos unido todos los datasets en un mismo Notebook:  
 [Notebook union datasets](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Creaci%C3%B3n%20dataset/4-%20Union%20Accidentes%20con%20los%20demas%20datasets.ipynb)
 
 ## Visualización de datos Tableau <a name="id5"></a>  
