@@ -113,7 +113,7 @@ El usuario mediante la interacción con un bot introduciendo en una breve frase 
 En el caso de interactuar via web, el usuario se dirigirá a una API donde introduciendo los datos anteriormente descritos, el modelo le devolverá una predicción.  
 [enlace web lesisvidad](https://calcium-spanner-264710.ew.r.appspot.com/)
  
-[Archivo para crear bot Telegram](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Creaci%C3%B3n%20bot%20Telegram/telegram.py)
+[Archivos para crear web](https://github.com/TheCrashKeepcoding/Practica-Final/tree/master/Web)
 
 ## Metodología de trabajo<a name="id13"></a>  
 Para la metodología de trabajo, hemos optado por usar la herramienta Trello, ya que nos ayuda a organizarnos mejor.
