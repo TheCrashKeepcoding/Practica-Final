@@ -117,7 +117,7 @@ El usuario mediante la interacción con un bot introduciendo en una breve frase 
 
 ## Creación web <a name="id12"></a>  
 En el caso de interactuar via web, el usuario se dirigirá a una API donde introduciendo los datos anteriormente descritos, el modelo le devolverá una predicción.  
-[enlace web lesisvidad](https://calcium-spanner-264710.ew.r.appspot.com/)
+[enlace web lesividad](https://calcium-spanner-264710.ew.r.appspot.com/)
  
 [Archivos para crear web](https://github.com/TheCrashKeepcoding/Practica-Final/tree/master/Web)
 
