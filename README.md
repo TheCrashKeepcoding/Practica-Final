@@ -126,4 +126,14 @@ Para la metodología de trabajo, hemos optado por usar la herramienta Trello, ya
 
 ![Imagen Trello](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Imagenes/Trello.png)
 
-## Conclusiones y mejoras <a name="id14"></a>
+## Conclusiones y mejoras <a name="id14"></a>  
+Inicialmente las ideas eran muchas, pero dado el tiempo de entrega se acordó tener un proyecto acotado el cual pudiéramos finalizar y entregar un PMV. Dentro de esos proyectos estaban:
+1. Predictor de accidentes.
+2. Seleccionar ruta origen y ruta destino e indicar la probabilidad de accidente.
+3. Suscripción a mail para información respecto a Accidentes
+4. Predictor de Lesividad
+Debido al tiempo nos quedamos con el predictor de lesividad. Los proyectos que no se abordaron quedan como mejoras esto, debido al volumen de información que se debe procesar y al poco tiempo que contamos para ello. 
+Es importante destacar que para hacer un análisis se requiere mucho tiempo en extraer la información, que está sea fiable y verídica.
+En el BigData las grandes V son Volumen, Velocidad, Veracidad, Variedad y Valor, con esto quiero indicar que en este proyecto se trato de abordar de mejor manera estás 5v’s, se trabajo con un volumen de data, nos preocupamos de que la información sea real, se complemento la información con otros dataset, como lugares de Ocio, días festivos, radares, y se entrega como resultado una predicción, que en este caso fue la lesividad.
+Esperamos seguir trabajando en las mejoras, solo estamos viendo la punta de iceberg, hay mucho que trabajar y aprender en este camino de conocimiento constante.
+
