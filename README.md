@@ -42,7 +42,7 @@ Datos ocio nocturno. Cruzaremos nuestros datos con la distancia a los lugares de
 Datos radares. Cruzaremos los datos con la distancia a los radares, para saber si hay menos accidentes en estos lugares:  
 [Datos radares](https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=4678f7de62435510VgnVCM2000001f4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default)
 
-Datos calendario. Cruzaremos los datos con los dias laborables y festivos de la comunidad de Madrid:  
+Datos calendario. Cruzaremos los datos con los días laborables y festivos de la Comunidad de Madrid:  
 [Datos calendario](https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=6cec1a94eae69510VgnVCM1000001d4a900aRCRD&vgnextchannel=102612b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default)
 
 Datos distritos. Utilizaremos estos datos para mejorar la visualización de los datos en tableau:  
