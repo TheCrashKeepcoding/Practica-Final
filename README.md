@@ -61,16 +61,16 @@ Por último hemos extraído latitud y longitud del dataset de radares, días fes
 [Notebook union datasets](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Creaci%C3%B3n%20dataset/4-%20Union%20Accidentes%20con%20los%20demas%20datasets.ipynb)
 
 ## Visualización de datos Tableau <a name="id5"></a>  
-La visualización de TABLEAU es un paso previó a todos los análisis para tener una idea de los datos que se quieren explotar, para ello, se cargó la base de accidentes y se separa en 4 graficas:
-1. Resumen General en el cual se muestran:    
-a. Top 5 barrios con más accidentes    
-b. top 3 meses con más accidentes    
-c. Accidentes por día de la semana    
-d. Top 5 horarios con mayor cantidad de Accidentes    
-e. Top 5 con Tipos de Accidentes
-2. Accidentes por año, mes y día, además muestra un mapa con los Barrios y % de accidentes
-3. Análisis por Lesividad separado por mes, días hábiles, días no hábiles y rango horario, tiene como filtro el año.
-4. Tipo de Vehículo, se pude ver el top 5 de rango horario  y Lesividad por semana, tiene como filtro el año.
+La visualización de TABLEAU es un paso previo a todos los análisis, para tener una idea de los datos que se quieren explotar; para ello, se cargó la base de accidentes y se separa en 4 graficas:
+1. Resumen general, en el cual se muestran:    
+a. Top 5 barrios con más accidentes.    
+b. Top 3 meses con más accidentes.    
+c. Accidentes por día de la semana.    
+d. Top 5 horarios con mayor cantidad de accidentes.    
+e. Top 5 con tipos de accidentes
+2. Accidentes por año, mes y día; además muestra un mapa con los barrios y % de accidentes.
+3. Análisis por lesividad, separado por mes, días hábiles, días no hábiles y rango horario; tiene como filtro el año.
+4. Tipo de vehículo, se pude ver el top 5 de rango horario y lesividad por semana; tiene como filtro el año.
 
 [Archivos Tableau](https://github.com/TheCrashKeepcoding/Practica-Final/tree/master/Visualizaci%C3%B3n%20Tableau)
 
