@@ -85,7 +85,7 @@ Hemos comparado varios modelos de Machine learning (Lasso, regresión logística
 [Notebook Comparacion modelos Machine Learning](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Analisis%20exploratorio%20y%20Modelos/ALGORITMOS%20MACHINE%20LEARNING.ipynb)
 
 ## Modelado con algoritmos de Deep Learning <a name="id8"></a>  
-Para nuestro proyecto, hemos probado algunos modelos de Deep Learning para ver si podemos mejorar el score conseguido con ML. Para ello, hemos probado modelos con y sin regularizadores , y con varias capas, sin conseguir en ningún caso mejorar lo obtenido en ML:  
+Para nuestro proyecto hemos probado algunos modelos de Deep Learning, para ver si podemos mejorar el score conseguido con ML. Para ello, hemos probado modelos con y sin regularizadores, y con varias capas, sin conseguir en ningún caso mejorar lo obtenido en ML:  
 [Notebook Comparacion modelos Deep Learning](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Analisis%20exploratorio%20y%20Modelos/ALGORITMOS%20DEEP%20LEARNING.ipynb)
 
 ## Elección del modelo final <a name="id9"></a>  
@@ -101,40 +101,40 @@ Hemos montado todo nuestro sistema en Google Cloud Service, para ello hemos util
 *	Notebook de Jupyter
 
 1. Entrenamiento del modelo en jupyter.  
-Limpieza del dataset y entrenamiento del modelo en un notebook de jupyter, desde el cual se realizara un pickle del modelo y se subirá directamente al Google Storage, tanto el modelo como el dataset.
+Limpieza del dataset y entrenamiento del modelo en un notebook de jupyter, desde el cual se realizará un pickle del modelo y se subirá directamente al Google Storage, tanto el modelo como el dataset.
 2. Web desde App Engine.  
-Montamos un servicio en App Engine donde estará nuestra web, que accedera al Storage de Google para acceder tanto al modelo como a los datos.
+Montamos un servicio en App Engine donde estará nuestra web, que accederá al Storage de Google para acceder tanto al modelo como a los datos.
 3. Desde el repositorio del cloud tenemos un fichero en Python que se va relanzado para que el bot este disponible siempre.
   
 ![Imagen arquitectura](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Imagenes/Arquitectura.png)
 
 ## Creación bot <a name="id11"></a>  
-Para el bot emos puesto el main.py (Telegram.py) en Google Cloud Repositories y lo lanzamos a través del 'shell' con un script.sh para hacer un bucle y que no se desconecte automáticamente.  Tenemos un Pickle subido a un bucket del cual cogemos la información del modelo y lo juntamos con las respuestas del usuario de Telegram para darle la predicción.  
+Para el bot hemos puesto el main.py (Telegram.py) en Google Cloud Repositories y lo lanzamos a través del 'shell' con un script.sh para hacer un bucle y que no se desconecte automáticamente.  Tenemos un Pickle subido a un bucket del cual cogemos la información del modelo y lo juntamos con las respuestas del usuario de Telegram para darle la predicción.  
 El usuario mediante la interacción con un bot introduciendo en una breve frase todos los datos necesarios, recibirá una predicción.  
 @ChrashBot
 
 [Archivo para crear bot Telegram](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Creaci%C3%B3n%20bot%20Telegram/telegram.py)
 
 ## Creación web <a name="id12"></a>  
-En el caso de interactuar via web, el usuario se dirigirá a una API donde introduciendo los datos anteriormente descritos, el modelo le devolverá una predicción.  
+En el caso de interactuar via web, el usuario se dirigirá a una API donde, introduciendo los datos anteriormente descritos, el modelo le devolverá una predicción.  
 [enlace web lesividad](https://calcium-spanner-264710.ew.r.appspot.com/)
  
 [Archivos para crear web](https://github.com/TheCrashKeepcoding/Practica-Final/tree/master/Web)
 
 ## Metodología de trabajo<a name="id13"></a>  
-Para la metodología de trabajo, hemos optado por usar la herramienta Trello, ya que nos ayuda a organizarnos mejor.
+Para la metodología de trabajo hemos optado por usar la herramienta Trello, ya que nos ayuda a organizarnos mejor.
 
 ![Imagen Trello](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Imagenes/Trello.png)
 
 ## Conclusiones y mejoras <a name="id14"></a>  
-Inicialmente las ideas eran muchas, pero dado el tiempo de entrega se acordó tener un proyecto acotado el cual pudiéramos finalizar y entregar un PMV. Dentro de esos proyectos estaban:
+Inicialmente las ideas eran muchas, pero dado el tiempo de entrega se acordó tener un proyecto acotado que pudiéramos finalizar y entregar un PMV. Dentro de esos proyectos estaban:
 1. Predictor de accidentes.
 2. Seleccionar ruta origen y ruta destino e indicar la probabilidad de accidente.
 3. Obtener datos climáticos de una web meteorológica.
-4. Suscripción a mail para información respecto a Accidentes.
-5. Predictor de Lesividad.  
-Debido al tiempo nos quedamos con el predictor de lesividad. Los proyectos que no se abordaron quedan como mejoras esto, debido al volumen de información que se debe procesar y al poco tiempo que contamos para ello. 
-Es importante destacar que para hacer un análisis se requiere mucho tiempo en extraer la información, que está sea fiable y verídica.
-En el BigData las grandes V son Volumen, Velocidad, Veracidad, Variedad y Valor, con esto quiero indicar que en este proyecto se trato de abordar de mejor manera estás 5v’s, se trabajo con un volumen de data, nos preocupamos de que la información sea real, se complemento la información con otros dataset, como lugares de Ocio, días festivos, radares, y se entrega como resultado una predicción, que en este caso fue la lesividad.
-Esperamos seguir trabajando en las mejoras, solo estamos viendo la punta de iceberg, hay mucho que trabajar y aprender en este camino de conocimiento constante.
+4. Suscripción a mail para información respecto a accidentes.
+5. Predictor de lesividad.  
+Debido al tiempo, nos quedamos con el predictor de lesividad. Los proyectos que no se abordaron quedan como mejoras, debido al volumen de información que se debe procesar y al poco tiempo que contamos para ello. 
+Es importante destacar que para hacer un análisis se requiere mucho tiempo en extraer la información, y que esta sea fiable y verídica.
+En el BigData las grandes V son Volumen, Velocidad, Veracidad, Variedad y Valor. Con esto queremos indicar que en este proyecto se ha tratado de abordar de mejor manera estas 5v’s: se ha trabajado con un volumen de data, nos hemos preocupado de que la información fuera real, se ha complementado la información con otros dataset, como lugares de ocio, días festivos, radares, y se entrega como resultado una predicción, que en este caso es la lesividad.
+Esperamos seguir trabajando en las mejoras, únicamente estamos viendo la punta de iceberg, hay mucho que trabajar y aprender en este camino de conocimiento constante.
 
