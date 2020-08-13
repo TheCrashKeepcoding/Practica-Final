@@ -5,8 +5,8 @@
 Fernando Parada   
 Luis Bastos  
 Miguel Escudero Lucena  
-Veronica Fuentealba Riquelme  
-Juan Antonio Roldan Paco  
+Verónica Fuentealba Riquelme  
+Juan Antonio Roldán Paco  
 **Fecha:** agosto - 2020  
 **Bootcamp:** BIG DATA & MACHINE LEARNING - KEEPCODING
 
