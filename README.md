@@ -49,7 +49,7 @@ Datos distritos. Utilizaremos estos datos para mejorar la visualización de los 
 [Datos distritos](https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=46b55cde99be2410VgnVCM1000000b205a0aRCRD&)
 
 ## Creación latitud y longitud en el dataset inicial <a name="id3"></a>
-Lo primero que hemos tenido que hacer es conseguir la latitud y la longitud en el dataset inicial para poderlo unir a los demás dataset; para ello hemos creado 2 Notebooks que a partir de las calles obtiene la latitud y longitud:  
+Lo primero que hemos tenido que hacer es conseguir la latitud y la longitud en el dataset inicial para poderlo unir a los demás dataset; para ello hemos creado 2 Notebooks,  que a partir de las calles obtiene la latitud y longitud:  
 [Notebook 1 Creación Latitud y Longitud](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Creaci%C3%B3n%20dataset/1-%20CoordenadasFinal.ipynb)  
 [Notebook 2 Creación Latitud y Longitud](https://github.com/TheCrashKeepcoding/Practica-Final/blob/master/Creaci%C3%B3n%20dataset/2-%20Dataset%20limpio.ipynb)
 
